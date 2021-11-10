@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Upload CSV to MySQL</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+      <h1>Selecione o arquivo CSV para o BD MySQL</h1>
+      <form action="/uploadfile" enctype="multipart/form-data" method="post">
+        <input type="file" name="uploadfile" accept='csv' >
+        <input type="submit" value="Upload CSV">
+      </form>  
+    </body>
+</html>
